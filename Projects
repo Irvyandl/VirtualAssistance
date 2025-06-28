@@ -1,0 +1,139 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos | Irvin Prado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #E8F0F5;
+      --color-accent: #2F528F;
+      --color-light: #FFFFFF;
+      --color-gray: #F6F8FB;
+      --color-text-dark: #1A1A1A;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
+      color: var(--color-text-dark);
+      line-height: 1.6;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 4rem;
+      background: var(--color-light);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .project img {
+      max-width: 400px;
+      border-radius: 8px;
+    }
+
+    .project .text {
+      flex: 1 1 300px;
+    }
+
+    .project h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
+    }
+
+    .project p {
+      margin-bottom: 1rem;
+    }
+
+    .project a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: var(--color-accent);
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .project a:hover {
+      background-color: #1d3b6c;
+    }
+
+    footer {
+      background-color: transparent;
+      color: #666;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+
+    <div class="project">
+      <div class="text">
+        <h3>Plan de apertura: de guion a presentación ejecutiva</h3>
+        <p>Adaptación de guion a formato visual en PowerPoint con IA y branding. Proyecto diseñado para The Boulevard Food.</p>
+        <p><strong>Habilidades:</strong> PowerPoint, diseño, escritura estructurada</p>
+        <a href="#">Contactame para tener estas presentaciones en tu negocio</a>
+      </div>
+      <img src="assets/mockups/ppt_mockup_1.png" alt="Presentación PowerPoint">
+    </div>
+
+    <div class="project">
+      <div class="text">
+        <h3>Ventas anuales: dashboard interactivo para decisiones rápidas</h3>
+        <p>Transformación de +7000 datos en gráficos dinámicos con Power BI. Reportes automatizados y fácilmente interpretables.</p>
+        <p><strong>Habilidades:</strong> Power BI, DAX, limpieza de datos</p>
+        <a href="enlace de archivo PBIX aquí">Descarga e interactúa con este dashboard</a>
+      </div>
+      <img src="assets/mockups/dashboard_mockup.png" alt="Dashboard Power BI">
+    </div>
+
+    <div class="project">
+      <div class="text">
+        <h3>Análisis de precios: decisiones antes del pico</h3>
+        <p>Seguimiento y visualización de precios de insumos por 5 meses en Excel, para decisiones de compra inteligentes.</p>
+        <p><strong>Habilidades:</strong> Excel avanzado, visualización, análisis de tendencias</p>
+        <a href="enlace de archivo Excel aquí">Ver reporte de análisis de precios</a>
+      </div>
+      <img src="assets/mockups/excel_mockup.png" alt="Reporte de precios en Excel">
+    </div>
+
+    <div class="project">
+      <div class="text">
+        <h3>Correo ejecutivo: claridad en movimiento</h3>
+        <p>Email redactado desde llamada + info interna. Explica aumentos de precio y mantiene un tono profesional bilingüe.</p>
+        <p><strong>Habilidades:</strong> Redacción, comunicación efectiva, inglés profesional</p>
+        <a href="#">Emails así de claros en tu negocio? Contáctame</a>
+      </div>
+      <img src="assets/mockups/email_mockup.png" alt="Correo profesional">
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 Irvin Prado. Built with purpose and precision.
+  </footer>
+</body>
+</html>
