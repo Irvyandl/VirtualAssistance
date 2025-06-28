@@ -106,7 +106,7 @@
     <h1>For E-commerce, Agencies & Bilingual CEOs – Irvin’s Assistance</h1>
     <h2>Virtual Assistance + BI Reporting = Tiempo y datos en tus manos</h2>
     <div class="buttons">
-      <a href="proyectos.html" class="primary">Ver visuales</a>
+      <a href="https://irvyandl.github.io/VirtualAssitance/Projects.html" class="primary">Ver visuales</a>
       <a href="experiencia.html" class="secondary">Ver experiencia</a>
     </div>
   </header>
