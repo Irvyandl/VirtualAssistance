@@ -107,7 +107,7 @@
     <h2>Virtual Assistance + BI Reporting = Tiempo y datos en tus manos</h2>
     <div class="buttons">
       <a href="https://irvyandl.github.io/VirtualAssitance/Projects.html" class="primary">Ver visuales</a>
-      <a href="experiencia.html" class="secondary">Ver experiencia</a>
+      <a href="https://irvyandl.github.io/VirtualAssitance/Experience.html" class="secondary">Ver experiencia</a>
     </div>
   </header>
 
