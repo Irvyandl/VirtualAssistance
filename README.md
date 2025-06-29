@@ -115,9 +115,9 @@
   </header>
 
   <div class="device-row">
-    <img src="assets/mockups/dashboard_laptop.png" alt="Dashboard en laptop">
-    <img src="https://irvyandl.github.io/VirtualAssitance/g6KAHyjAF.png" alt="Reporte en tablet">
-    <img src="https://irvyandl.github.io/VirtualAssitance/g6KAHyjAF.png" alt="Correo profesional en móvil">
+    <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/8787188b740.png?raw=true" alt="Dashboard en laptop">
+    <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/g6KAHyjAF%20(1).png?raw=true" alt="Reporte en tablet">
+    <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/c5930e27717.png?raw=true" alt="Correo profesional en móvil">
   </div>
 
   <footer>
