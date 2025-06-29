@@ -113,7 +113,7 @@
 
   <div class="device-row">
     <img src="assets/mockups/dashboard_laptop.png" alt="Dashboard en laptop">
-    <img src="assets/mockups/report_tablet.png" alt="Reporte en tablet">
+    <img src="https://irvyandl.github.io/VirtualAssitance/Projects.html" alt="Reporte en tablet">
     <img src="assets/mockups/email_mobile.png" alt="Correo profesional en móvil">
   </div>
 
