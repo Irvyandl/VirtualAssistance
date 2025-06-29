@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habilidades | Irvin Prado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #E8F0F5;
+      --color-accent: #2F528F;
+      --color-light: #FFFFFF;
+      --color-gray: #F6F8FB;
+      --color-text-dark: #1A1A1A;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
+      color: var(--color-text-dark);
+      line-height: 1.6;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      color: var(--color-accent);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .skill {
+      background: var(--color-light);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .skill img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .skill .info {
+      flex: 1;
+    }
+
+    .skill h4 {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s, color 0.3s;
+      border: 2px solid var(--color-accent);
+      color: var(--color-accent);
+      margin: 0 0.5rem;
+    }
+
+    .buttons a:hover {
+      background-color: #1d3b6c;
+      color: white;
+    }
+
+    footer {
+      background-color: transparent;
+      color: #666;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <h2>Lo que puedo aportar a tu negocio</h2>
+
+    <div class="skills-grid">
+
+      <!-- Hard Skills -->
+      <div class="skill">
+        <img src="assets/icons/globe.svg" alt="Inglés">
+        <div class="info">
+          <h4>Inglés C1</h4>
+          <p>Dominio bilingüe para comunicación efectiva en ambientes globales.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/ppt.svg" alt="PowerPoint">
+        <div class="info">
+          <h4>PowerPoint</h4>
+          <p>Diseño de presentaciones profesionales con enfoque corporativo.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/word.svg" alt="Word">
+        <div class="info">
+          <h4>Microsoft Word</h4>
+          <p>Manejo avanzado de herramientas de redacción y formato.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/write.svg" alt="Copywriting">
+        <div class="info">
+          <h4>Redacción</h4>
+          <p>Claridad, estructura y tono profesional para documentos y correos.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/canva.svg" alt="Canva">
+        <div class="info">
+          <h4>Canva</h4>
+          <p>Diseño visual para materiales rápidos y funcionales.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/bi.svg" alt="Power BI">
+        <div class="info">
+          <h4>Power BI</h4>
+          <p>Creación de dashboards interactivos y storytelling visual.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/excel.svg" alt="Excel">
+        <div class="info">
+          <h4>Excel Avanzado</h4>
+          <p>Modelado, fórmulas y visualización de datos efectiva.</p>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill">
+        <img src="assets/icons/brain.svg" alt="Pensamiento crítico">
+        <div class="info">
+          <h4>Pensamiento crítico</h4>
+          <p>Evaluación y mejora constante de decisiones y procesos.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/up-arrow.svg" alt="Mejora continua">
+        <div class="info">
+          <h4>Mejora continua</h4>
+          <p>Busco formas nuevas de optimizar tiempo y energía.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/refresh.svg" alt="Apertura mental">
+        <div class="info">
+          <h4>Apertura mental</h4>
+          <p>Flexibilidad para adaptarme a nuevas ideas o enfoques.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/chat.svg" alt="Comunicación clara">
+        <div class="info">
+          <h4>Comunicación clara</h4>
+          <p>Mensajes estructurados y entendibles en cada entrega.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/clock.svg" alt="Gestión del tiempo">
+        <div class="info">
+          <h4>Gestión del tiempo</h4>
+          <p>Rutinas y entregas organizadas, enfocadas en eficiencia.</p>
+        </div>
+      </div>
+
+      <div class="skill">
+        <img src="assets/icons/gear.svg" alt="Resolución de problemas">
+        <div class="info">
+          <h4>Resolución de problemas</h4>
+          <p>Soluciones rápidas y lógicas ante imprevistos.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="buttons">
+      <a href="proyectos.html">Ver proyectos</a>
+      <a href="contacto.html">Contáctame para aplicar estas habilidades</a>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2025 Irvin Prado. Built with purpose and precision.
+  </footer>
+</body>
+</html>
