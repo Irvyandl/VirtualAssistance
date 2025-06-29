@@ -113,7 +113,12 @@
 
   <div class="device-row">
     <img src="assets/mockups/dashboard_laptop.png" alt="Dashboard en laptop">
-    <img src="https://irvyandl.github.io/VirtualAssitance/g6KAHyjAF.png" alt="Reporte en tablet">
+    <div style="max-width: 100%; text-align: center; padding: 1rem;">
+  <img 
+    src="https://irvyandl.github.io/VirtualAssitance/g6KAHyjAF.png" 
+    alt="Reporte en tablet" 
+    style="width: 100%; height: auto; max-width: 800px; display: block; margin: 0 auto; box-shadow: 0 4px 16px rgba(0,0,0,0.2); border-radius: 12px;" />
+</div>
     <img src="assets/mockups/email_mobile.png" alt="Correo profesional en móvil">
   </div>
 
