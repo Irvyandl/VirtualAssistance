@@ -1,0 +1,151 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiencia | Irvin Prado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #E8F0F5;
+      --color-accent: #2F528F;
+      --color-light: #FFFFFF;
+      --color-gray: #F6F8FB;
+      --color-text-dark: #1A1A1A;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
+      color: var(--color-text-dark);
+      line-height: 1.6;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .experience-block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background: var(--color-light);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .experience-block img {
+      max-width: 400px;
+      border-radius: 8px;
+    }
+
+    .experience-block .text {
+      flex: 1 1 300px;
+    }
+
+    .experience-block h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
+    }
+
+    .experience-block p {
+      margin-bottom: 1rem;
+    }
+
+    .experience-block .icon-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .experience-block .icon-row img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .experience-block a {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: var(--color-accent);
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .experience-block a:hover {
+      background-color: #1d3b6c;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s, color 0.3s;
+      border: 2px solid var(--color-accent);
+      color: var(--color-accent);
+      margin: 0 0.5rem;
+    }
+
+    .buttons a:hover {
+      background-color: #1d3b6c;
+      color: white;
+    }
+
+    footer {
+      background-color: transparent;
+      color: #666;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="experience-block">
+      <div class="text">
+        <h3>The Boulevard Food | Oct 2024 - Presente</h3>
+        <p>Soporte integral para negocio local:</p>
+        <ul>
+          <li>Organización de horarios y proveedores</li>
+          <li>Diseño de presentaciones e informes de costos</li>
+          <li>Redacción de correos y promociones</li>
+        </ul>
+        <div class="icon-row">
+          <img src="assets/icons/calendar.svg" alt="Calendario">
+          <img src="assets/icons/excel.svg" alt="Excel">
+          <img src="assets/icons/checklist.svg" alt="Checklist">
+        </div>
+        <a href="#">Contactame para sumar esta experiencia a tu equipo</a>
+      </div>
+      <img src="assets/mockups/experience_mockup.png" alt="Flujo de trabajo o documento">
+    </div>
+    <div class="buttons">
+      <a href="habilidades.html">Ver habilidades</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Irvin Prado. Built with purpose and precision.
+  </footer>
+</body>
+</html>
