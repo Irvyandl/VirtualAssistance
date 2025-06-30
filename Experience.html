@@ -1,6 +1,6 @@
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Experiencia | Irvin Prado</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -33,22 +33,15 @@
     }
 
     .experience-block {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
       background: var(--color-light);
       padding: 2rem;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
-
-    .experience-block img {
-      max-width: 400px;
-      border-radius: 8px;
+      margin-bottom: 4rem;
     }
 
     .experience-block .text {
-      flex: 1 1 300px;
+      margin-bottom: 2rem;
     }
 
     .experience-block h3 {
@@ -59,6 +52,11 @@
     }
 
     .experience-block p {
+      margin-bottom: 1rem;
+    }
+
+    .experience-block ul {
+      margin-left: 1.5rem;
       margin-bottom: 1rem;
     }
 
@@ -86,6 +84,20 @@
 
     .experience-block a:hover {
       background-color: #1d3b6c;
+    }
+
+    .mockup-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .mockup-row img {
+      flex: 1 1 calc(33.333% - 1rem);
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
 
     .buttons {
@@ -137,7 +149,11 @@
         </div>
         <a href="#">Contactame para sumar esta experiencia a tu equipo</a>
       </div>
-      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/aHFRQ2q$Y.png?raw=true" alt="Flujo de trabajo o documento">
+      <div class="mockup-row">
+        <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/aHFRQ2q$Y.png?raw=true" alt="Mockup existente">
+        <img src="enlace_a_mockup_checklist.png" alt="Checklist visual">
+        <img src="enlace_a_mockup_correo.png" alt="Correo visual">
+      </div>
     </div>
     <div class="buttons">
       <a href="https://irvyandl.github.io/VirtualAssitance/Skills.html">Ver habilidades</a>
