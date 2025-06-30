@@ -102,13 +102,15 @@
 <body>
   <div class="container">
     <h2>¿Trabajamos juntos?</h2>
-    <form>
+    <form action="https://formspree.io/f/mayrvqzj" method="POST">
+      <input type="hidden" name="_next" value="confirmacion.html">
       <input type="text" name="name" placeholder="Tu nombre" required>
       <input type="email" name="email" placeholder="Tu correo electrónico" required>
-      <select name="service">
+      <select name="service" required>
         <option value="">¿Qué necesitas?</option>
         <option value="asistencia">Asistencia Virtual</option>
-        <option value="bi">Dashboard / Business Intelligence</option>
+        <option value="bi">Dashboards e Inteligencia de Datos</option>
+        <option value="combinado">Asistencia + BI (Soluciones Integrales)</option>
         <option value="otro">Otro tipo de colaboración</option>
       </select>
       <textarea name="message" placeholder="Cuéntame más sobre lo que necesitas" required></textarea>
@@ -116,7 +118,7 @@
     </form>
 
     <div class="alt-contact">
-      <p>¿Prefieres escribirme directamente? Puedes hacerlo a <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+      <p>¿Prefieres escribirme directamente? Puedes hacerlo a <a href="mailto:irvyandl18@gmail.com">irvyandl18@gmail.com</a></p>
       <p>O contactarme vía <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a></p>
     </div>
   </div>
