@@ -1,8 +1,9 @@
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Proyectos | Irvin Prado</title>
+  <title>Projects | Irvin Prado</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -108,6 +109,28 @@
       cursor: not-allowed;
     }
 
+    .footer-buttons {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .footer-buttons a {
+      text-decoration: none;
+      margin: 0 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s, color 0.3s;
+      border: 2px solid var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    .footer-buttons a:hover {
+      background-color: #1d3b6c;
+      color: white;
+    }
+
     footer {
       background-color: transparent;
       color: #666;
@@ -120,54 +143,59 @@
 <body>
   <section class="section">
 
-    <!-- Proyecto PowerPoint con mockup debajo -->
+    <!-- PowerPoint Project -->
     <div class="project">
       <div class="text">
-        <h3>Plan de apertura: de guion a presentación ejecutiva</h3>
-        <p>Adaptación de guion a formato visual en PowerPoint con IA y branding. Proyecto diseñado para The Boulevard Food.</p>
-        <p><strong>Habilidades:</strong> PowerPoint, diseño, escritura estructurada</p>
-        <a href="https://irvyandl.github.io/VirtualAssitance/contact.html" class="cta">Contáctame para tener estas presentaciones en tu negocio</a>
+        <h3>Launch Plan – Script to Executive Presentation</h3>
+        <p>Converted a detailed business script into a branded, clean PowerPoint presentation using visual storytelling and AI support. Designed for The Boulevard Food.</p>
+        <p><strong>Skills:</strong> PowerPoint, visual formatting, structured writing</p>
+        <a href="https://irvyandl.github.io/VirtualAssitance/contact.html" class="cta">Let me design presentations like this for your team</a>
         <div class="ppt-controls">
-          <img id="ppt-image" src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/8787188b740.png?raw=true" alt="Diapositiva 1">
+          <img id="ppt-image" src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/8787188b740.png?raw=true" alt="Slide 1">
           <div class="ppt-buttons">
-            <button id="prev" disabled>&larr; Anterior</button>
-            <button id="next">Siguiente &rarr;</button>
+            <button id="prev" disabled>&larr; Prev</button>
+            <button id="next">Next &rarr;</button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Dashboard Power BI -->
+    <!-- Power BI Dashboard -->
     <div class="project">
       <div class="text">
-        <h3>Ventas anuales: dashboard interactivo para decisiones rápidas</h3>
-        <p>Transformación de +7000 datos en gráficos dinámicos con Power BI. Reportes automatizados y fácilmente interpretables.</p>
-        <p><strong>Habilidades:</strong> Power BI, DAX, limpieza de datos</p>
-        <a href="https://github.com/Irvyandl/VirtualAssitance/raw/refs/heads/main/assets/visuals/SalesReport.pbix" class="cta">Descarga e interactúa con este dashboard</a>
+        <h3>Annual Sales Dashboard – Fast, Visual Decision Making</h3>
+        <p>Transformed 7,000+ rows into powerful visuals in Power BI. Fully interactive and auto-updating for ongoing analysis.</p>
+        <p><strong>Skills:</strong> Power BI, DAX, data cleaning & modeling</p>
+        <a href="https://github.com/Irvyandl/VirtualAssitance/raw/refs/heads/main/assets/visuals/SalesReport.pbix" class="cta">Download and interact with this dashboard</a>
       </div>
-      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/g6KAHyjAF%20(1).png?raw=true" alt="Dashboard Power BI">
+      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/g6KAHyjAF%20(1).png?raw=true" alt="Sales Dashboard">
     </div>
 
-    <!-- Excel Precios -->
+    <!-- Excel Pricing Analysis -->
     <div class="project">
       <div class="text">
-        <h3>Análisis de precios: decisiones antes del pico</h3>
-        <p>Seguimiento y visualización de precios de insumos por 5 meses en Excel, para decisiones de compra inteligentes.</p>
-        <p><strong>Habilidades:</strong> Excel avanzado, visualización, análisis de tendencias</p>
-        <a href="https://github.com/Irvyandl/VirtualAssitance/raw/refs/heads/main/assets/visuals/PricingReport.xlsx" class="cta">Ver reporte de análisis de precios</a>
+        <h3>Supply Pricing Tracker – Timely Decisions from Trends</h3>
+        <p>Tracked key item pricing over 5 months using Excel. Trends were visualized and interpreted to support timely purchases.</p>
+        <p><strong>Skills:</strong> Excel (advanced formulas, charting), data trends analysis</p>
+        <a href="https://github.com/Irvyandl/VirtualAssitance/raw/refs/heads/main/assets/visuals/PricingReport.xlsx" class="cta">View pricing analysis report</a>
       </div>
-      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/c5930e27717%20(1).png?raw=true" alt="Reporte de precios en Excel">
+      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/c5930e27717%20(1).png?raw=true" alt="Excel Pricing Report">
     </div>
 
-    <!-- Email -->
+    <!-- Email Composition -->
     <div class="project">
       <div class="text">
-        <h3>Correo ejecutivo: claridad en movimiento</h3>
-        <p>Email redactado desde llamada + info interna. Explica aumentos de precio y mantiene un tono profesional bilingüe.</p>
-        <p><strong>Habilidades:</strong> Redacción, comunicación efectiva, inglés profesional</p>
-        <a href="https://irvyandl.github.io/VirtualAssitance/contact.html" class="cta">¿Emails así de claros en tu negocio? Contáctame</a>
+        <h3>Business Email – Clear, Bilingual Communication</h3>
+        <p>Wrote a bilingual business email summarizing meeting notes and pricing strategy in a professional tone.</p>
+        <p><strong>Skills:</strong> Writing, business English, internal comms</p>
+        <a href="https://irvyandl.github.io/VirtualAssitance/contact.html" class="cta">Need emails this clear? Let’s work together</a>
       </div>
-      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/eiHMprKud.png?raw=true" alt="Correo profesional">
+      <img src="https://github.com/Irvyandl/VirtualAssitance/blob/main/assets/visuals/eiHMprKud.png?raw=true" alt="Email Screenshot">
+    </div>
+
+    <div class="footer-buttons">
+      <a href="https://irvyandl.github.io/VirtualAssitance/contact.html">Contact Me</a>
+      <a href="https://irvyandl.github.io/VirtualAssitance/Experience.html">View Experience</a>
     </div>
 
   </section>
