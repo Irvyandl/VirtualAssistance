@@ -22,7 +22,6 @@
       font-family: 'Inter', sans-serif;
       background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
       color: var(--color-text-dark);
-      line-height: 1.6;
       padding: 4rem 2rem;
     }
 
@@ -100,31 +99,59 @@
 </head>
 <body>
   <div class="container">
-    <h2>Let's take your team's perfomance higher!</h2>
+    <h2>Let’s match you with the right plan 🚀</h2>
     <form action="https://formsubmit.co/irvyandl18@gmail.com" method="POST">
-      <!-- Redirection -->
       <input type="hidden" name="_next" value="https://irvyandl.github.io/VirtualAssistance/confirm.html" />
-      <!-- Optional: disable CAPTCHA -->
       <input type="hidden" name="_captcha" value="false" />
 
-      <input type="text" name="name" placeholder="Your name" required />
+      <input type="text" name="name" placeholder="Your full name" required />
       <input type="email" name="email" placeholder="Your email" required />
 
-      <select name="service" required>
-        <option value="">What service are you looking for?</option>
-        <option value="virtual_assistance">Virtual Assistance</option>
-        <option value="bi">Dashboards & Data Intelligence</option>
-        <option value="combined">Assistance + BI (Integrated Solutions)</option>
-        <option value="other">Other type of collaboration</option>
+      <label for="priority">What’s your current business focus?</label>
+      <select name="priority" required>
+        <option value="">-- Select one --</option>
+        <option value="admin_free">Freeing up time from admin</option>
+        <option value="regular_reports">Regular reporting & tracking</option>
+        <option value="dashboard_focus">Dashboards & decision-making</option>
       </select>
 
-      <textarea name="message" placeholder="Tell me more about your needs" required></textarea>
-      <button type="submit">Send message</button>
+      <label for="hours">How many VA hours do you expect to need per month?</label>
+      <select name="hours" required>
+        <option value="">-- Choose range --</option>
+        <option value="15-25">15–25 hours</option>
+        <option value="26-35">26–35 hours</option>
+        <option value="36+">36+ hours</option>
+      </select>
+
+      <label for="dashboard">Do you need dashboards or data visuals?</label>
+      <select name="dashboard" required>
+        <option value="">-- Select one --</option>
+        <option value="occasionally">Just occasionally</option>
+        <option value="monthly">Monthly updates</option>
+        <option value="executive">Weekly or executive-level</option>
+      </select>
+
+      <label for="presentations">How important are presentations (PowerPoint/Canva)?</label>
+      <select name="presentations" required>
+        <option value="">-- Select one --</option>
+        <option value="rarely">Only when needed</option>
+        <option value="monthly">Once a month</option>
+        <option value="often">Weekly or client/investor-facing</option>
+      </select>
+
+      <label for="budget">What is your estimated monthly budget for this service?</label>
+      <select name="budget" required>
+        <option value="">-- Select range --</option>
+        <option value="under_300">Under $300 (Lean startup or testing phase)</option>
+        <option value="300_600">$300–$600 (Actively growing and investing)</option>
+        <option value="600_plus">Over $600 (Operational, ready to scale)</option>
+      </select>
+
+      <button type="submit">Send my answers</button>
     </form>
 
     <div class="alt-contact">
-      <p>Prefer to write me directly? You can do so at <a href="mailto:irvyandl18@gmail.com">irvyandl18@gmail.com</a></p>
-      <p>Or connect with me via <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a></p>
+      <p>Prefer to reach out directly? Email me at <a href="mailto:irvyandl18@gmail.com">irvyandl18@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/irvin-prado-6961b1363" target="_blank">LinkedIn</a>.</p>
     </div>
   </div>
 
