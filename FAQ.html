@@ -1,15 +1,19 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FAQs | Irvin Prado</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="h9FqMW-A6hgkaiMBtHjYkHE1wE5fYtnNw7TedYHqhGw" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bilingual virtual assistant offering dashboards, business reports, and visual presentations for digital teams and e-commerce businesses.">
+  <meta name="description" lang="es" content="Asistente virtual bilingüe que ofrece dashboards, reportes empresariales y presentaciones visuales para equipos digitales y negocios de e-commerce.">
+  <title>Irvin Prado | Virtual Assistance + BI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
       --color-bg: #E8F0F5;
       --color-accent: #2F528F;
       --color-light: #FFFFFF;
+      --color-gray: #F6F8FB;
       --color-text-dark: #1A1A1A;
     }
 
@@ -23,63 +27,114 @@
       font-family: 'Inter', sans-serif;
       background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
       color: var(--color-text-dark);
-      padding: 4rem 2rem;
     }
 
-    .container {
-      max-width: 800px;
+    header {
+      text-align: left;
+      padding: 4rem 2rem 2rem 2rem;
+      max-width: 900px;
       margin: auto;
-      background: var(--color-light);
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      color: var(--color-accent);
+      margin-bottom: 1rem;
     }
 
     h2 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.2rem;
-      margin-bottom: 1.5rem;
-      color: var(--color-accent);
-      text-align: center;
-    }
-
-    h3 {
-      color: var(--color-accent);
-      margin-top: 1.5rem;
       font-size: 1.2rem;
+      font-weight: normal;
+      margin-bottom: 2rem;
     }
 
-    p {
-      margin: 0.5rem 0 1.2rem;
-      line-height: 1.6;
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background 0.3s, color 0.3s;
+      border: 2px solid var(--color-accent);
+    }
+
+    .buttons a.primary {
+      background-color: var(--color-accent);
+      color: white;
+    }
+
+    .buttons a.secondary {
+      background-color: transparent;
+      color: var(--color-accent);
+    }
+
+    .buttons a:hover {
+      background-color: #1d3b6c;
+      color: white;
+    }
+
+    .device-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 4rem;
+      flex-wrap: wrap;
+      padding: 0 2rem;
+    }
+
+    .device-row img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
     }
 
     footer {
+      background-color: transparent;
+      color: #666;
       text-align: center;
-      margin-top: 4rem;
-      font-size: 0.85rem;
-      color: #777;
+      padding: 2rem;
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 600px) {
+      .buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .buttons a {
+        width: 100%;
+        text-align: center;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
+  <header>
+    <h1>For E-commerce, Agencies & Bilingual CEOs – Irvin’s Assistance</h1>
+    <h2>Virtual Assistance + BI Dashboards = Your time and insights optimized</h2>
+    <div class="buttons">
+      <a href="https://irvyandl.github.io/VirtualAssistance/Projects.html" class="primary">The Visuals I Build</a>
+      <a href="https://irvyandl.github.io/VirtualAssistance/Experience.html" class="secondary">The Experience I Provide</a>
+      <a href="https://irvyandl.github.io/VirtualAssistance/Skills.html" class="secondary">The Skills I Add</a>
+      <a href="https://irvyandl.github.io/VirtualAssistance/FAQ.html" class="secondary">Frequently Asked Questions</a>
+    </div>
+  </header>
 
-    <h3>What services do you offer as a Virtual Assistant?</h3>
-    <p>I provide administrative support, data visualization (Excel/Power BI), and visual content (PowerPoint/Canva). I handle email management, calendar coordination, CRM tasks, reports, dashboards, and branded presentations.</p>
-
-    <h3>How do I know you're reliable and organized?</h3>
-    <p>Every task is tracked, reported, and scheduled through organized tools like Google Calendar and Excel. My work process includes weekly updates and structured delivery cycles, so everything is clear and consistent.</p>
-
-    <h3>Do you handle confidential data securely?</h3>
-    <p>Yes. I use encrypted sharing platforms like Google Drive and OneDrive, password managers when needed, and am open to NDAs for sensitive data.</p>
-
-    <h3>How do payments work?</h3>
-    <p>All payments are securely managed via <strong>Escrow.com</strong>. This protects both parties by holding funds until work is approved. You'll receive an official Escrow link where we both agree on terms, and you stay in control every step of the way.</p>
-
-    <h3>How do we get started?</h3>
-    <p>Once you fill out the client form, I’ll review your needs and suggest a personalized service plan. From there, we’ll confirm scope and timelines, and you’ll receive your secure Escrow link. Work begins once terms are approved.</p>
+  <div class="device-row">
+    <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/8787188b740.png?raw=true" alt="Presentation Slide Preview">
+    <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/g6KAHyjAF%20(1).png?raw=true" alt="Power BI Dashboard Mockup">
+    <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/c5930e27717%20(1).png?raw=true" alt="Business Email Screenshot">
   </div>
 
   <footer>
