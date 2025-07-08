@@ -1,78 +1,83 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Service Agreement | Irvin Prado</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --color-bg: #E8F0F5;
+      --color-accent: #2F528F;
+      --color-light: #FFFFFF;
+      --color-text-dark: #1A1A1A;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom right, #f6f8fb, #e8f0f5);
-      color: #1a1a1a;
-      padding: 2rem;
+      background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
+      color: var(--color-text-dark);
+      line-height: 1.6;
+      padding: 4rem 2rem;
     }
 
     .container {
-      background-color: #ffffff;
-      max-width: 850px;
+      max-width: 800px;
       margin: auto;
-      padding: 2rem;
+      background: var(--color-light);
+      padding: 2.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    }
+
+    h1, h2 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--color-accent);
     }
 
     h1 {
-      font-family: 'Poppins', sans-serif;
       font-size: 2rem;
-      color: #2f528f;
       margin-bottom: 1rem;
+      text-align: center;
     }
 
     h2 {
-      color: #2f528f;
       font-size: 1.2rem;
       margin-top: 2rem;
+      margin-bottom: 1rem;
     }
 
     p, li {
-      margin: 1rem 0;
-      line-height: 1.5;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 0.75rem;
-      margin: 0.5rem 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
+      margin-bottom: 0.75rem;
       font-size: 1rem;
     }
 
-    textarea {
-      height: 100px;
+    ul {
+      padding-left: 1.25rem;
     }
 
-    button {
-      background-color: #2f528f;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
-      margin-top: 1rem;
+    .signature {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
     }
 
-    button:hover {
-      background-color: #1d3b6c;
+    .signature-block {
+      flex: 1;
+      min-width: 280px;
     }
 
-    .summary-box {
-      background-color: #f6f8fb;
-      border-left: 4px solid #2f528f;
-      padding: 1rem 1.5rem;
-      margin: 1rem 0;
-      border-radius: 8px;
+    .signature-line {
+      border-top: 1px solid #999;
+      margin-top: 2rem;
+      padding-top: 0.25rem;
     }
   </style>
 </head>
@@ -80,45 +85,78 @@
   <div class="container">
     <h1>Service Agreement</h1>
 
-    <p>This agreement outlines the services to be provided, terms of collaboration, and mutual expectations between Irvin Prado (the Service Provider) and the Client. It ensures both clarity and professionalism in all projects.</p>
+    <p><strong>Client Name:</strong> [Client Full Name]<br>
+    <strong>Business Name (if applicable):</strong> [Client Business Name]<br>
+    <strong>Contact Email:</strong> [Client Email Address]</p>
 
-    <h2>Agreement Summary</h2>
-    <div class="summary-box">
-      <ul>
-        <li>📄 Scope of Services: Includes remote virtual assistance and/or BI dashboard creation as agreed, with services such as inbox/calendar management, Excel tracking, visual presentations, and Power BI dashboards.</li>
-        <li>⏱️ Service Hours and Rate: Total service hours and hourly rate to be defined. Payment via Escrow.com. 10% late fee per day. Services paused after 3 days of delay.</li>
-        <li>📆 Timeline: Start and end dates mutually agreed. Minor revisions allowed. One-time project requests must be made at least 48 hours in advance or incur a rush fee.</li>
-        <li>🔁 Termination: Either party may cancel with 10-day notice, provided before Day 20 of cycle to avoid billing confusion.</li>
-        <li>💬 Communication: By email or agreed tools like Slack, Trello, WhatsApp.</li>
-        <li>📌 Project Requests: Must be submitted with details, timeline, and price. Late submissions may require a surcharge.</li>
-        <li>🌪️ Force Majeure: In case of natural/political events, the provider will notify within 12 hours with proof (e.g., news reports).</li>
-        <li>🩺 Health Exceptions: In case of serious illness, advance notice of 48 hours will be provided.</li>
-        <li>🔐 Confidentiality: Client data will be protected and not shared outside the agreement scope.</li>
-        <li>⚖️ Legal Terms: Governed by the law of client’s or provider’s region. Liability limited to direct project-related damages.</li>
-      </ul>
+    <p><strong>Service Provider:</strong> Irvin Prado<br>
+    <strong>Business Field:</strong> Virtual Assistance & BI Services<br>
+    <strong>Email:</strong> irvyandl18@gmail.com</p>
+
+    <h2>1. Scope of Services</h2>
+    <ul>
+      <li>Task 1: [Insert Task]</li>
+      <li>Task 2: [Insert Task]</li>
+      <li>Task 3: [Insert Task]</li>
+    </ul>
+    <p>Services will be delivered remotely through digital tools. Provider obligations are determined by the specific service plan selected and paid for.</p>
+
+    <h2>2. Ownership of Work</h2>
+    <p>All materials created during the course of the service, including documents, presentations, and dashboards, are the intellectual property of the client upon full payment.</p>
+
+    <h2>3. Service Hours and Rate</h2>
+    <ul>
+      <li>Total service hours: [XX] hours per [week/month/project]</li>
+      <li>Hourly Rate: [$XX USD]</li>
+      <li>Total Fee: [$XXX USD]</li>
+      <li>Payment Method: Escrow.com (or agreed alternative)</li>
+      <li>Payment Frequency: [Weekly / Biweekly / Monthly / One-time]</li>
+    </ul>
+    <p><strong>Payment Terms:</strong> A 10% late fee will apply per day after the due date. Services and delivery of any project files will be suspended starting from the third day of non-payment. The agreement remains valid while recurring payments are maintained.</p>
+
+    <h2>4. Fee Adjustments</h2>
+    <p>Service rates may be subject to change at the Provider’s discretion due to tool upgrades, added services, or cost of operations. A notice will be given at least 10 days before the end of the monthly cycle.</p>
+
+    <h2>5. One-Time Projects Policies</h2>
+    <p>Must be requested at least 48 hours in advance. Otherwise, an expedited service fee will apply. Delivery timelines and specific project scope are defined in agreement with the selected plan.</p>
+
+    <h2>6. Terms of Termination</h2>
+    <p>Either party may end this agreement with 10 days prior written notice. Notice must be provided by Day 20 of a monthly cycle to avoid extended billing obligations. Once a service is canceled, the agreement is no longer in force.</p>
+
+    <h2>7. Communication</h2>
+    <p>Preferred via email: irvyandl18@gmail.com. Tools such as Slack, Trello, or WhatsApp may also be used upon mutual agreement.</p>
+
+    <h2>8. Project Requests</h2>
+    <p>Project work and additional deliverables are selected by the client based on the features available in their chosen plan ([Insert Plan Name]).</p>
+
+    <h2>9. Force Majeure</h2>
+    <p>In the case of natural disasters or political unrest in the provider’s location, work may be paused with at least 12 hours' notice and proof (e.g., weather alert or official report).</p>
+
+    <h2>10. Health & Emergency Leave</h2>
+    <p>If a personal health issue arises, the provider will give a 48-hour notice and outline the expected downtime.</p>
+
+    <h2>11. Confidentiality</h2>
+    <p>Client information will remain confidential throughout and after the agreement. NDAs may be signed upon request.</p>
+
+    <h2>12. Legal Jurisdiction</h2>
+    <p>To be defined mutually by both parties before the agreement is finalized.</p>
+
+    <h2>13. Limitation of Liability</h2>
+    <p>The provider is not responsible for errors or issues caused by third-party tools, software, or platforms.</p>
+
+    <h2>14. Approval</h2>
+    <div class="signature">
+      <div class="signature-block">
+        <p><strong>Client Signature:</strong></p>
+        <div class="signature-line">[Signature Here]</div>
+        <p><strong>Date:</strong> ___________________</p>
+      </div>
+      <div class="signature-block">
+        <p><strong>Service Provider Signature:</strong></p>
+        <div class="signature-line">Irvin Prado</div>
+        <p><strong>Date:</strong> ___________________</p>
+      </div>
     </div>
-
-    <form action="https://formsubmit.co/irvyandl18@gmail.com" method="POST">
-      <input type="hidden" name="_next" value="https://irvyandl.github.io/VirtualAssistance/confirm.html" />
-      <input type="hidden" name="_captcha" value="false" />
-
-      <label>Client Name:</label>
-      <input type="text" name="client_name" required />
-
-      <label>Business Name (if applicable):</label>
-      <input type="text" name="business_name" />
-
-      <label>Contact Email:</label>
-      <input type="email" name="client_email" required />
-
-      <label>Signature:</label>
-      <input type="text" name="client_signature" placeholder="Full name or digital signature" required />
-
-      <label>Date:</label>
-      <input type="date" name="signature_date" required />
-
-      <button type="submit">Send Agreement</button>
-    </form>
   </div>
 </body>
 </html>
