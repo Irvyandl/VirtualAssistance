@@ -3,6 +3,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projects | Irvin Prado</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/Irvyandl/VirtualAssistance/refs/heads/main/logo.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -12,20 +13,17 @@
       --color-gray: #F6F8FB;
       --color-text-dark: #1A1A1A;
     }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: 'Inter', sans-serif;
       background: linear-gradient(to bottom right, #F6F8FB, #E8F0F5);
       color: var(--color-text-dark);
       line-height: 1.6;
     }
-
     .section {
       padding: 4rem 2rem;
       max-width: 800px;
@@ -34,7 +32,6 @@
       flex-direction: column;
       gap: 3rem;
     }
-
     .project {
       background: var(--color-light);
       padding: 2rem;
@@ -45,7 +42,6 @@
       align-items: center;
       text-align: center;
     }
-
     .project img {
       width: 100%;
       max-width: 600px;
@@ -53,19 +49,16 @@
       margin: 1.5rem 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
-
     .project h3 {
       font-family: 'Poppins', sans-serif;
       font-size: 1.5rem;
       color: var(--color-accent);
       margin-bottom: 1rem;
     }
-
     .project p {
       margin-bottom: 1rem;
       font-size: 1rem;
     }
-
     .project a.cta {
       display: inline-block;
       margin-top: 1rem;
@@ -76,18 +69,15 @@
       border-radius: 6px;
       transition: background 0.3s;
     }
-
     .project a.cta:hover {
       background-color: #1d3b6c;
     }
-
     .ppt-controls {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
     }
-
     .ppt-controls img {
       width: 100%;
       max-width: 600px;
@@ -95,12 +85,10 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-
     .ppt-buttons {
       display: flex;
       gap: 1rem;
     }
-
     .ppt-buttons button {
       background-color: var(--color-accent);
       color: white;
@@ -111,21 +99,19 @@
       cursor: pointer;
       transition: background 0.3s;
     }
-
     .ppt-buttons button:disabled {
       background-color: #999;
       cursor: not-allowed;
     }
-
     .footer-buttons {
       text-align: center;
       margin-top: 3rem;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      flex-wrap: wrap;
+      align-items: center;
       gap: 1rem;
     }
-
     .footer-buttons a {
       text-decoration: none;
       padding: 0.75rem 1.5rem;
@@ -136,12 +122,10 @@
       border: 2px solid var(--color-accent);
       color: var(--color-accent);
     }
-
     .footer-buttons a:hover {
       background-color: #1d3b6c;
       color: white;
     }
-
     footer {
       background-color: transparent;
       color: #666;
@@ -149,17 +133,38 @@
       padding: 2rem;
       font-size: 0.875rem;
     }
+    .footer-call {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    .footer-call a {
+      color: #2F528F;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer-call a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .footer-buttons {
+        flex-direction: column;
+      }
+      .project h3 {
+        font-size: 1.25rem;
+      }
+      .project p,
+      .project a.cta {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 <body>
   <section class="section">
-
-    <!-- PowerPoint Project -->
     <div class="project">
       <h3>Launch Plan – Script to Executive Presentation</h3>
       <p>Converted a detailed business script into a branded, clean PowerPoint presentation using visual storytelling and AI support. Designed for The Boulevard Food.</p>
       <p><strong>Skills:</strong> PowerPoint, visual formatting, structured writing</p>
-      <a href="https://irvyandl.github.io/VirtualAssistance/contact.html" class="cta">Bring presentation design like this to your team</a>
       <div class="ppt-controls">
         <img id="ppt-image" src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/8787188b740.png?raw=true" alt="Slide 1">
         <div class="ppt-buttons">
@@ -167,46 +172,41 @@
           <button id="next">Next &rarr;</button>
         </div>
       </div>
+      <a href="https://irvyandl.github.io/VirtualAssistance/contact.html" class="cta">Bring presentation design like this to your team</a>
     </div>
-
-    <!-- Power BI Dashboard -->
     <div class="project">
       <h3>Annual Sales Dashboard – Fast, Visual Decision Making</h3>
       <p>Transformed 7,000+ rows into powerful visuals in Power BI. Fully interactive and auto-updating for ongoing analysis.</p>
       <p><strong>Skills:</strong> Power BI, DAX, data cleaning & modeling</p>
-      <a href="https://github.com/Irvyandl/VirtualAssistance/raw/refs/heads/main/assets/visuals/SalesReport.pbix" class="cta">Download and interact with this dashboard</a>
       <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/g6KAHyjAF%20(1).png?raw=true" alt="Sales Dashboard">
+      <a href="https://github.com/Irvyandl/VirtualAssistance/raw/refs/heads/main/assets/visuals/SalesReport.pbix" class="cta">Download and interact with this dashboard</a>
     </div>
-
-    <!-- Excel Pricing Analysis -->
     <div class="project">
       <h3>Supply Pricing Tracker – Timely Decisions from Trends</h3>
       <p>Tracked key item pricing over 7 months using Excel. Trends were visualized and interpreted to support timely purchases.</p>
       <p><strong>Skills:</strong> Excel (table design, charting), data trends analysis</p>
-      <a href="https://github.com/Irvyandl/VirtualAssistance/raw/refs/heads/main/assets/visuals/PricingReport.xlsx" class="cta">View pricing analysis report</a>
       <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/c5930e27717%20(1).png?raw=true" alt="Excel Pricing Report">
+      <a href="https://github.com/Irvyandl/VirtualAssistance/raw/refs/heads/main/assets/visuals/PricingReport.xlsx" class="cta">View pricing analysis report</a>
     </div>
-
-    <!-- Email Composition -->
     <div class="project">
       <h3>Business Email – Clear, Bilingual Communication</h3>
       <p>Wrote a bilingual business email summarizing meeting notes and pricing strategy in a professional tone.</p>
       <p><strong>Skills:</strong> Writing, business English, internal comms</p>
-      <a href="https://irvyandl.github.io/VirtualAssistance/contact.html" class="cta">Need emails this clear? Let’s work together</a>
       <img src="https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/eiHMprKud.png?raw=true" alt="Email Screenshot">
+      <a href="https://irvyandl.github.io/VirtualAssistance/contact.html" class="cta">Need emails this clear? Let’s work together</a>
     </div>
-
     <div class="footer-buttons">
       <a href="https://irvyandl.github.io/VirtualAssistance/contact.html">Get Visuals like these to your time now!</a>
       <a href="https://irvyandl.github.io/VirtualAssistance/Experience.html">The Experience I provide</a>
+      <a href="https://irvyandl.github.io/VirtualAssistance/FAQ.html">Frequently Asked Questions</a>
     </div>
-
   </section>
-
   <footer>
     © 2025 Irvin Prado. <em>Ascende Superius – Seek Higher Things</em>
+    <div class="footer-call">
+      <a href="https://irvyandl.github.io/PageDesignWithIrvin/">Do you want a website like this? Click here</a>
+    </div>
   </footer>
-
   <script>
     const pptImages = [
       'https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/8787188b740.png?raw=true',
@@ -216,16 +216,13 @@
       'https://github.com/Irvyandl/VirtualAssistance/blob/main/assets/visuals/8787188b740%20(4).png?raw=true'
     ];
     let currentSlide = 0;
-
     const img = document.getElementById('ppt-image');
     const prevBtn = document.getElementById('prev');
     const nextBtn = document.getElementById('next');
-
     function updateButtons() {
       prevBtn.disabled = currentSlide === 0;
       nextBtn.disabled = currentSlide === pptImages.length - 1;
     }
-
     prevBtn.addEventListener('click', () => {
       if (currentSlide > 0) {
         currentSlide--;
@@ -233,7 +230,6 @@
         updateButtons();
       }
     });
-
     nextBtn.addEventListener('click', () => {
       if (currentSlide < pptImages.length - 1) {
         currentSlide++;
@@ -241,7 +237,6 @@
         updateButtons();
       }
     });
-
     updateButtons();
   </script>
 </body>
